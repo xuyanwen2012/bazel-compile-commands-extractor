@@ -1242,6 +1242,9 @@ def _convert_compile_commands(aquery_output):
             if file == 'external/bazel_tools/src/tools/launcher/dummy.cc':
                 continue  # Suppress Bazel internal files leaking through. Hopefully will prevent issues like https://github.com/hedronvision/bazel-compile-commands-extractor/issues/77
 
+            
+
+
             print("----------")
             print(file)
             print("----------")
